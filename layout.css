@@ -1,0 +1,30 @@
+@media all and (min-width: 400px) {
+  .splash {
+    background-image: url(splash/splashbillede_portfolio.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    max-width: none;
+    margin: 0;
+  }
+}
+@media (min-width: 1090px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+  }
+
+  .grid_3-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,21 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  background-color: #0071bc;
+}
+h1,
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: xx-large;
+}
+p {
+  font-family: "Rajdhani", sans-serif;
+  color: white;
+  font-size: larger;
+}
+a {
+  font-family: "Chakra Petch", sans-serif;
+  color: black;
+}
