@@ -15,7 +15,28 @@ p {
   color: white;
   font-size: larger;
 }
+h2 {
+  color: #00ffff;
+}
 a {
   font-family: "Chakra Petch", sans-serif;
   color: black;
+}
+a:hover {
+  color: #00ffff;
+}
+header {
+  top: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0);
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
 }
