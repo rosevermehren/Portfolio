@@ -96,19 +96,7 @@ header nav ul {
   background-image: url(svg/hjerte2.svg);
   background-size: cover;
 }
-#hjerte3_container {
-  width: 100%;
-  aspect-ratio: 5;
-  position: absolute;
-  top: 60%;
-  left: 95%;
-}
-#hjerte3_sprite {
-  width: 100%;
-  height: 100%;
-  background-image: url(svg/hjerte3.svg);
-  background-size: cover;
-}
+
 .op_ned {
   animation-name: op_ned_kf;
   animation-duration: 5s;
