@@ -1,12 +1,12 @@
 @media all and (min-width: 400px) {
-  .splash {
-    background-image: url(splash/splashbillede_portfolio.png);
+  #splash {
+    background-image: url(SVG/splahbillede.svg);
     background-repeat: no-repeat;
-    height: 100vh;
     width: 100%;
+    height: 100%;
+    left: 0%;
+    position: absolute;
     background-size: cover;
-    max-width: none;
-    margin: 0;
   }
 }
 @media (min-width: 1090px) {
