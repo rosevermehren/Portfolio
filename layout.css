@@ -37,3 +37,40 @@
     gap: 10px;
   }
 }
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.flex-col :last-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.flex-col_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.flex-col_2 :last-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.flex-col_3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.flex-col_4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.flex-col_4-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}

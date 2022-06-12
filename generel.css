@@ -6,17 +6,32 @@ body {
   background-color: #cdebff;
 }
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Chakra Petch", sans-serif;
   font-size: xx-large;
+  color: #4b00e7;
+}
+.heading {
+  text-align: center;
 }
 p {
   font-family: "Rajdhani", sans-serif;
-  color: white;
+  color: #ff7bac;
   font-size: larger;
+  margin: 10px;
 }
 h2 {
-  color: #00ffff;
+  color: #4b00e7;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: medium;
 }
 a {
   font-family: "Chakra Petch", sans-serif;
