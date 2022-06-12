@@ -45,7 +45,7 @@ header {
   padding: 1rem 2rem;
   box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0);
   position: sticky;
-  background-color: #cdebff;
+  background-color: whitesmoke;
 }
 header nav ul {
   display: flex;
@@ -56,6 +56,14 @@ header nav ul {
   padding-bottom: 0.4rem;
   gap: 30px;
   overflow-x: auto;
+}
+.footer {
+  height: 10vh;
+  display: flex;
+  place-content: center;
+  font-family: "Rajdhani", sans-serif;
+  color: black;
+  background-color: white;
 }
 /* JAVASCRIPT */
 #navn_container {
