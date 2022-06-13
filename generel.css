@@ -71,9 +71,9 @@ header nav ul {
 /* JAVASCRIPT */
 #navn_container {
   width: 30%;
-  aspect-ratio: 5;
+  aspect-ratio: 40/9;
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 70%;
 }
 
@@ -85,9 +85,9 @@ header nav ul {
 }
 #portfolio_container {
   width: 50%;
-  aspect-ratio: 5;
+  aspect-ratio: 40/9;
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 55%;
 }
 #portfolio_sprite {
@@ -98,9 +98,9 @@ header nav ul {
 }
 #hjerte1_container {
   width: 8%;
-  aspect-ratio: 1;
+  aspect-ratio: 10/9;
   position: absolute;
-  top: 50%;
+  top: 57%;
   left: 80%;
 }
 #hjerte1_sprite {
@@ -111,9 +111,9 @@ header nav ul {
 }
 #hjerte2_container {
   width: 5%;
-  aspect-ratio: 1;
+  aspect-ratio: 10/9;
   position: absolute;
-  top: 58%;
+  top: 65%;
   left: 74%;
 }
 #hjerte2_sprite {
@@ -124,10 +124,10 @@ header nav ul {
 }
 #hjerte3_container {
   width: 7%;
-  aspect-ratio: 1;
+  aspect-ratio: 10/9;
   position: absolute;
-  top: 55%;
-  left: 87%;
+  top: 63%;
+  left: 89%;
 }
 #hjerte3_sprite {
   width: 100%;
