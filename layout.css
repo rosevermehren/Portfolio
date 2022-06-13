@@ -24,8 +24,17 @@
 
   .grid_3-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 2rem;
+  }
+  .ux_mood {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+  .ux_survey {
+    grid-column: 2/3;
+    grid-row: 3/4;
   }
   .grid_2-1 {
     display: grid;
