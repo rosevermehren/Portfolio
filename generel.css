@@ -18,11 +18,13 @@ h6 {
 .heading {
   text-align: center;
 }
+
 p {
   font-family: "Rajdhani", sans-serif;
   color: #ff7bac;
   font-size: larger;
   margin: 10px;
+  margin-inline: 20pt;
 }
 h2 {
   color: #4b00e7;
@@ -110,7 +112,7 @@ header nav ul {
   width: 5%;
   aspect-ratio: 1;
   position: absolute;
-  top: 55%;
+  top: 56%;
   left: 74%;
 }
 #hjerte2_sprite {
@@ -119,36 +121,35 @@ header nav ul {
   background-image: url(svg/hjerte2.svg);
   background-size: cover;
 }
+#hjerte3_container {
+  width: 7%;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 55%;
+  left: 87%;
+}
+#hjerte3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/hjerte3.svg);
+  background-size: cover;
+}
 
 .op_ned {
   animation-name: op_ned_kf;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: both;
 }
+
 @keyframes op_ned_kf {
-  0% {
-    transform: translateX(0);
-  }
-
-  10% {
-    transform: translateX(0);
-  }
-  30% {
-    transform: translateX(10%);
-  }
-
-  45% {
-    transform: translateX(0);
-  }
-
   50% {
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 
   55% {
-    transform: translateY();
+    transform: translateY(10%);
   }
 
   90% {
@@ -169,7 +170,7 @@ header nav ul {
 
 @keyframes forsvind_kf {
   0% {
-    opacity: 1;
+    opacity: 10;
   }
 
   100% {
