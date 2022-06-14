@@ -80,7 +80,7 @@ header nav ul {
 #navn_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(portfolio/svg/navn.svg);
+  background-image: url(/svg/navn.svg);
   background-size: cover;
 }
 #portfolio_container {
@@ -93,7 +93,7 @@ header nav ul {
 #portfolio_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(portfolio/svg/portf.svg);
+  background-image: url(/svg/portf.svg);
   background-size: cover;
 }
 #hjerte1_container {
@@ -106,7 +106,7 @@ header nav ul {
 #hjerte1_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(portfolio/svg/hjerte1.svg);
+  background-image: url(/svg/hjerte1.svg);
   background-size: cover;
 }
 #hjerte2_container {
@@ -119,7 +119,7 @@ header nav ul {
 #hjerte2_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(portfolio/svg/hjerte2.svg);
+  background-image: url(/svg/hjerte2.svg);
   background-size: cover;
 }
 #hjerte3_container {
@@ -132,7 +132,7 @@ header nav ul {
 #hjerte3_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(portfolio/svg/hjerte3.svg);
+  background-image: url(/svg/hjerte3.svg);
   background-size: cover;
 }
 
